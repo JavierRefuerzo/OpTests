@@ -22,6 +22,6 @@ if creds.errors != None:
     exit()
 
 
-ProgramTests(creds)
+# ProgramTests(creds)
 
-#StationTests(creds)
+StationTests(creds)

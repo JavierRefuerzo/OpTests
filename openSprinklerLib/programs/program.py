@@ -62,6 +62,9 @@ class Program :
     def changeVariables(self, var: str, value: int):
         self.controller.changeVariables(var=var, value=value)
 
+
+    # This function only available on 2.1.9 
+    # a different call is needed for earlier firmwar
     def changeEnable(self, value):
         commands = [("pid", self.id),('en', value)]
         #station status request

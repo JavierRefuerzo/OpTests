@@ -46,7 +46,7 @@ class Settings:
         #rain delay
         self.rd_Listener.updateOnChange(request['rd'] )
         # sensor 1 status
-        self.sn1_Listener.updateOnChange(request["sn1"])
+        self.sn1_Listener.updateOnChange(request["sn15"])
         # sensor 2 status
         self.sn2_Listener.updateOnChange(request["sn2"])
         #station status
